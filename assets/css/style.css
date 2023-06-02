@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  ::placeholder {
+    color: silver !important;
+    opacity: 1;
+  }
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.bg-white {
+    transition: all .5s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#home {
+    background-color: #f9bd08 !important;
+    /* background: -webkit-linear-gradient(to right, #f9bd08, #f9d361);
+    background: linear-gradient(to right, #f9bd08, #f9d361); */
+    padding: 25px;
+    height: auto;
+}
+
+.content-home {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.sikilat {
+    font-family: monospace;
+}
+
+.boxbtn, .boxbtn:focus {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: black !important;
+}
+
+.boxbtn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.navbar-nav li {
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 50px;
+}
+
+.section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.cardbox {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    margin: 10px auto;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.img-gambar {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+.ul ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.team .col {
+    margin: 5px auto;
+}
+
+.card {
+    margin: auto;
+    display: block;
+}
+
+iframe {
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 5px;
+  }
+
+#contact {
+    background-color: #131925 !important;
+    color: #fff;
+}
+
+input, textarea {
+    background-color: transparent !important;
+    border: 1px solid silver !important;
+    color: silver !important;
+  }
+
+  footer {
+    background-color: #0f131d !important;
+    width: 100% !important;
+    bottom: 0;
+    left: 0;
+    padding: 20px !important;
+  }
+  
+  span.about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b3b0b0 !important;
+    font-size: 14px !important;
+  }
+
+  .sosmed a {
+    text-decoration: none;
+    color: silver;
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  
+  .sosmed a:hover {
+    transform: scale(1.5);
+  }
+  
+  .sosmed a:hover .ig {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  }
+  
+  .sosmed a:hover .fb {
+    color: #0069E8;
+  }
+  
+  .sosmed a:hover .tw {
+    color: #109AFC;
+  }
+  
+  .sosmed a:hover .yt {
+    color: #FE0000;
+  }
+  
+  .sosmed a:hover .wa {
+    color: #30D64E;
+  }
+
+  #btnUP {
+    padding: 20px;
+    border-radius: 10px;
+    width: 5%;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(100, 96, 96, 0.3) 0px 50px 100px -20px, rgba(100, 96, 96, 0.3) 0px 30px 60px -30px;
+    font-size: 18px;
+    position: fixed;
+    background: #b3b0b0;
+    color: white;
+  }
+
+/* mode mobile */
+@media (min-width: 360px) and (max-width: 415px) {
+    .content-home {
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    .driver-logo {
+        width: auto;
+        height: 300px;
+        margin: auto;
+        display: block;
+    }
+    .team .card {
+        width: 10rem !important;
+    }
+    .section {
+        margin-top: 18%;
+        margin-bottom: 18%;
+    }
+}
+
+/* mode tablet  */
+@media (min-width: 770px) and (max-width: 890px) {
+    .ok-dr {
+        margin-top: 10%;
+    }
+    .driver-logo {
+        width: auto;
+        height: 400px;
+    }
+}
+
+/* mode desktop  */
+@media (min-width: 900px) and (max-width: 2048px) {
+    .team .card {
+        width: 12rem !important;
+    }
+    .ok-dr {
+        margin-top: 10%;
+    }
+    .driver-logo {
+        width: auto;
+        height: 400px;
+    }
+}
